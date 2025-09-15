@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/07fc3385-b714-4deb-861b-338344e89ed2/d2enn1z-0bbbba75-4e74-4301-b945-126c717297e2.jpg/v1/fill/w_1192,h_670,q_70,strp/dexter_blood_spatter_wallpaper_by_ffadicted_d2enn1z-pre.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.4); /* Adjusted transparency */
+            padding: 40px 20px;
+        }
+
+        .police-font {
+            font-family: 'Special Elite', cursive;
+        }
+
+        .cv-text {
+            text-align: left;
+            width: 100%;
+            max-width: 900px;
+        }
+
+        .audio-link {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            color: white;
+            font-size: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="bg-gray-800 bg-opacity-50 rounded-xl p-8 w-full max-w-4xl">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 police-font">Dhanyaal Khan</h1>
+            <p class="text-sm md:text-xl">
+              Dhanyaalkhan1@gmail.com | 07584576583 
+            </p>
+
+            <div class="mt-8 cv-text text-sm">
+                <h2 class="text-xl font-bold mb-2">Personal Profile</h2>
+                <p>A Digital Forensics graduate (2:1) from Leeds Beckett University. I have practical experience in using tools like XRY and Cellebrite, and have conducted scenario-based investigations of HDD using EnCase. I am a quick learner seeking a challenging role to apply my technical skills and contribute to law enforcement.</p>
+
+                <h2 class="text-xl font-bold mt-6 mb-2">Education</h2>
+                <p><strong>Leeds Beckett University</strong> <em>BSc (Hons) Digital Forensics & Cyber Security</em>
+                <br><strong>(Sep 2020 – July 2025)</strong> Final Grade: 2:1</p>
+
+                <h2 class="text-xl font-bold mt-6 mb-2">Work Experience</h2>
+                <p><strong>Leeds City Council</strong> - Junior Infrastructure, Student Placement (Jun 2022 – Sep 2023)</p>
+                <ul class="list-disc ml-6">
+                    <li>Managed incoming incidents, service requests, emails/phone calls, ensuring timely resolution and detailed work orders.</li>
+                    <li>Oversaw Microsoft Windows Servers hosted on VMware, within a hybrid cloud environment.</li>
+                    <li>Utilized SCOM to monitor server health and SCCM for patching on pre-production environments, released patches to relevant collections (monthly schedule).</li>
+                    <li>IIS - install and manage website certificates.</li>
+                    <li>Assessed vulnerabilities using Rapid7 and implemented remediation measures.</li>
+                    <li>Conducted virtual server builds & decommissions.</li>
+                    <li>Managed Active Directory permissions and server resource allocation.</li>
+                    <li>Used vSphere to manage CPU, RAM, and disk space,used performance monitoring tools to identify and resolve issues.</li>
+                    <li>Conducted general server maintenance and ensured that resources for new builds were utilised sensibly through capacity management.</li>
+                </ul>
+
+                <h2 class="text-xl font-bold mt-6 mb-2">Skills</h2>
+                <ul>
+                    <li>Digital Forensics Tools: XRY, Cellebrite, EnCase</li>
+                    <li>Operating Systems: Windows, Linux</li>
+                    <li>Networking: TCP/IP, DNS, DHCP</li>
+                    <li>Security Concepts: Threat Mitigation, Vulnerability Analysis</li>
+                    <li>General IT: Troubleshooting, Hardware/Software Installation</li>
+                </ul>
+
+                <h2 class="text-xl font-bold mt-6 mb-2">Projects</h2>
+                <p><strong>Digital Vehicle Forensics Educational Website</strong></p>
+                <p>GitHub: <a href="https://github.com/Dhanyaalk/Prodproject" class="text-blue-400 hover:underline">https://github.com/Dhanyaalk/Prodproject</a></p>
+                <ul class="list-disc ml-6">
+                    <li>Designed and developed a web-based learning tool for digital vehicle forensics as part of my final year dissertation, focusing on communicating complex forensic concepts through a user-friendly interface.</li>
+                    <li>Designed and implemented an educational website dedicated to Digital Vehicle Forensics, providing in-depth knowledge and insights.</li>
+                    <li>Configured and managed a domain using Active Directory, incorporating Windows and Linux systems, and implemented security policies using Group Policy.</li>
+                    <li>Used industry-standard forensic analysis tools like Encase and FTK Imager to investigate digital evidence.</li>
+                </ul>
+                
+                <h2 class="text-xl font-bold mt-6 mb-2">References</h2>
+                <p><strong>Taimur Bakshi</strong> (Project Supervisor) – <a href="mailto:t.bakhshi@leedsbeckett.ac.uk" class="text-blue-400 hover:underline">t.bakhshi@leedsbeckett.ac.uk</a></p>
+                <p><strong>Tajinder Bambhrah</strong> (Infrastructure Manager) – <a href="mailto:Tajinder.Bambhrah@leeds.gov.uk" class="text-blue-400 hover:underline">Tajinder.Bamhrah@leeds.gov.uk</a></p>
+            </div>
+        </div>
+        <a href="#audio-player" class="audio-link">
+            <span>Audio</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+        </a>
+        <div id="audio-player" class="mt-4 flex justify-center">
+            <iframe style="border: 0; width: 200px; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2875106109/size=small/bgcol=ffffff/linkcol=333333/artwork=none/track=3500873080/transparent=true/" seamless>
+                <a href="https://furniture-music.bandcamp.com/album/dexter-on-piano">Dexter on piano by Furniture Music</a>
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
